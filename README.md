@@ -4,8 +4,6 @@
 
 В папку проекта ставим [Wordpress](https://wordpress.org/download/)  
 
-Далее читаем [README.md](https://github.com/andreysuha2/wp-start-theme/tree/master/wp-content/themes/wordpress-starter-theme) темы  
-
 ## Работа с гит
 
 Папки и файлы WP в гитигноре  
@@ -19,12 +17,8 @@
 префикс для таблиц: `wp_`  
 
 
-
-
 Старт проекта Wordpress Themes:
 После того как вы в консоле перешли в папку с проектами, далее нужно клонировать стартовый проект:
-git clone https://github.com/andreysuha2/wp-start-theme domain-name
-параметр domain-name переименуйте на свой домен для разработки.
 
 В созданную папку ставим Wordpress перед установкой почитать установка и настройка WP
 
@@ -52,12 +46,10 @@ git commit -m "init"
 
 git remote add origin адрес созданного репозитория
 добавляем адрес удаленного репозитория
-пример: git remote add origin https://nickname@bitbucket.org/f5-team/repo.git
 
 git push -u origin master
 заливаем первый коммит на битбакет и назначим по умолчанию ветку мастер
 
-Как работать с стартовым проектом - читаем README.md стартового проекта в данном случае здесь - https://github.com/andreysuha2/wp-start-theme
 
 Внимание!
 Не заходите в админку через localhost только через домен.
